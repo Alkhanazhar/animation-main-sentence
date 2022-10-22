@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    /* background-image:linear-gradient(rgba(0,0,0,0.9),transparent),url(./joel-fulgencio-KtWcwmL75IY-unsplash.jpg); */
+    background-size: cover;
+    background-position: center;
+    padding: 0 ;
+    position: relative;
+    background-color: #BF971F;
+}
+nav{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 10px 0 ;
+    font-family: 'Open Sans';
+    text-align: center;
+
+    background-color:#f7e52e;
+    /* box-shadow: inset 10px 10px 10000px black,0px 1px 10px 10px rgba(255, 255, 255, 0.041); */
+    border-bottom: 1px rgba(255, 255, 255, 0.191) solid;
+}
+.logo{
+    text-decoration: none;
+    width: 120px;
+    cursor: pointer;   
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    padding:0 4% ;
+    word-spacing: 10px;
+    color: black;
+    font-size: 1.7rem; 
+    padding-top: 1px;
+    letter-spacing: -2px;
+    font-weight: 800;
+}
+
+
+.cart{
+    list-style: none;
+    text-decoration: none;
+    width: 40px;
+    cursor: pointer;
+    color: black;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+
+nav ul{
+    text-align: right;
+    flex: 1;
+    padding-right: 30px;    
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 4px;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+nav ul li a:hover{
+    color: rgba(255, 255, 255, 0.939);
+    text-decoration: none;
+}
+/* nav ul li a::after{
+    content: '';
+    width: 50%;
+    height: 3px;
+    position: absolute ;
+    bottom: -4px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: white;
+} */
+.text-box{
+    color: aliceblue;
+    text-transform: uppercase;
+    margin: 0 8%;
+    position: absolute;
+    bottom: 8%;
+}
+.text-box h1{
+    font-size: 120px;
+    line-height: 160px;
+    margin: left -10px;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(./images/back.png);
+    -webkit-background-clip:text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+    background-position: 2000px 0;
+
+    }
+}
+
+.text-box h3{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+
+
+}
+.text-box .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
+
+    
+}
+.text-box a{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px ;
+    border: 2px solid #fff;
+    margin: 2px;
+
+}
+.text-box a:first-child{
+    background-color: rgba(0, 45, 45, 0.265);
+}
+
+.text-box a:last-child
+    {
+        background-color: #FB2576;
+
+    }
+    .text-box a:last-child:hover{
+        box-shadow: inset 1px 1px 300px black,inset -1px -1px 100px black;
+        
+    }
+.text-box span{
+    font-size: 30px;
+    line-height: 15px;
+    margin-left: 5px;}
+
+.social-icons{
+    position: absolute;
+    right: 5%;
+    bottom: 8%;
+}
+.social-icons img{
+    width: 25px;
+    display: block;
+    margin: 25px 5px ;
+}
+.second{
+    width: 100%;
+    height: 100px;
+    /* background-image: url(./joel-fulgencio-KtWcwmL75IY-unsplash.jpg); */
+    background-size: cover;
+    background-position: center;
+    background-color: #BF971F;
+    
+}
