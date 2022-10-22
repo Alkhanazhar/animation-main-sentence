@@ -8,12 +8,12 @@
 .container{
     width: 100%;
     height: 100vh;
-    /* background-image:linear-gradient(rgba(0,0,0,0.9),transparent),url(./joel-fulgencio-KtWcwmL75IY-unsplash.jpg); */
+    background-image:linear-gradient(rgba(0,0,0,0.9),transparent),url(./joel-fulgencio-KtWcwmL75IY-unsplash.jpg);
     background-size: cover;
     background-position: center;
     padding: 0 ;
     position: relative;
-    background-color: #BF971F;
+/*     background-color: #BF971F; */
 }
 nav{
     display: flex;
@@ -24,8 +24,8 @@ nav{
     font-family: 'Open Sans';
     text-align: center;
 
-    background-color:#f7e52e;
-    /* box-shadow: inset 10px 10px 10000px black,0px 1px 10px 10px rgba(255, 255, 255, 0.041); */
+/*     background-color:#f7e52e; */
+    box-shadow: inset 10px 10px 10000px black,0px 1px 10px 10px rgba(255, 255, 255, 0.041);
     border-bottom: 1px rgba(255, 255, 255, 0.191) solid;
 }
 .logo{
@@ -35,7 +35,7 @@ nav{
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
     padding:0 4% ;
     word-spacing: 10px;
-    color: black;
+    color: white;
     font-size: 1.7rem; 
     padding-top: 1px;
     letter-spacing: -2px;
@@ -48,7 +48,7 @@ nav{
     text-decoration: none;
     width: 40px;
     cursor: pointer;
-    color: black;
+    color: white;
     font-family: 'Open Sans',Helvetica,Arial,Lucida,sans-serif;
 }
 
